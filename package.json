@@ -2,7 +2,7 @@
   "name": "graphql-image",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^2.9.14",
+    "cloudinary": "^1.18.1",
     "express": "^4.17.1",
     "graphql": "^14.5.8"
   }
